@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.koko.myapplication3" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Beginner"
+            android:label="@string/title_activity_beginner" >
+        </activity>
+        <activity
+            android:name=".hiragana_menu"
+            android:label="@string/title_activity_hiragana_menu" >
+        </activity>
+        <activity
+            android:name=".katakana_menu"
+            android:label="@string/title_activity_katakana_menu" >
+        </activity>
+        <activity
+            android:name=".hiragana_learn"
+            android:label="@string/title_activity_hiragana_learn" >
+        </activity>
+        <activity
+            android:name=".katakana_learn"
+            android:label="@string/title_activity_katakana_learn" >
+        </activity>
+        <activity
+            android:name=".practice"
+            android:label="@string/title_activity_practice" >
+        </activity>
+        <activity
+            android:name=".Hiragana_test"
+            android:label="@string/title_activity_hiragana_test" >
+        </activity>
+        <activity
+            android:name=".intermediate"
+            android:label="@string/title_activity_intermediate" >
+        </activity>
+        <activity
+            android:name=".beginner_dialogue"
+            android:label="@string/title_activity_beginner_dialogue" >
+        </activity>
+        <activity
+            android:name=".beginner_grammar_menu"
+            android:label="@string/title_activity_beginner_grammar_menu" >
+        </activity>
+        <activity
+            android:name=".beginner_grammar_unit1"
+            android:label="@string/title_activity_beginner_grammar_unit1" >
+        </activity>
+        <activity
+            android:name=".beginner_grammar_unit2"
+            android:label="@string/title_activity_beginner_grammar_unit2" >
+        </activity>
+        <activity
+            android:name=".hiragana_learn2"
+            android:label="@string/title_activity_hiragana_learn2" >
+        </activity>
+    </application>
+
+</manifest>

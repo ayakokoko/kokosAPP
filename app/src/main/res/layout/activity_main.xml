@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#e50d0d0d"
+    android:id="@+id/nooob">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D-SENSEI JAPANESE"
+        android:id="@+id/title"
+        android:minHeight="30dp"
+        android:minWidth="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textColor="#ffff4f98"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEGINNER"
+        android:id="@+id/button"
+        android:minWidth="200dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginBottom="35dp"
+
+        android:onClick="openNewActivity"
+        android:nestedScrollingEnabled="false"
+        android:background="#ff65ffb2" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INTERMEDIATE"
+        android:id="@+id/button2"
+        android:minWidth="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="#E6FF66"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADVANCED"
+        android:id="@+id/button3"
+        android:minWidth="200dp"
+        android:background="#FF6699"
+        android:clickable="true"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_beginner">Beginner</string>
+    <string name="title_activity_hiragana_menu">hiragana_menu</string>
+    <string name="title_activity_katakana_menu">katakana_menu</string>
+    <string name="title_activity_hiragana_learn">hiragana_learn</string>
+    <string name="hiragana_learn_explanation">Hiragana is the most commonly used form of Japanese letters.
+    Almost all Japanese sounds or letters are composed of zero, one or two consonants and one vowel. Japanese has 5 vowels - a, i, u, e and o.\n
+    </string>
+    <string name="title_activity_katakana_learn">katakana_learn</string>
+    <string name="title_activity_practice">practice</string>
+    <string name="title_activity_hiragana_test">Hiragana_test</string>
+    <string name="title_activity_intermediate">intermediate</string>
+    <string name="title_activity_beginner_dialogue">beginner_dialogue</string>
+    <string name="title_activity_beginner_grammar_menu">beginner_grammar_menu</string>
+    <string name="title_activity_beginner_grammar_unit1">beginner_grammar_unit1</string>
+    <string name="beginner_grammar_unit1_content">In English, words in a sentence are generally arranged in the following order: \n <blockquote>Subject + Verb + Object</blockquote> \n
+        \n
+    However, in Japanese, the order is: \n
+        \n <blockquote>(Subject) + Object + Verb</blockquote> \n
+        \n
+    Moreover, subject is not mentioned when it is obvious from the context - especially anata (you) and watashi (I). \n
+    \n
+    Example: \n
+    Japanese: \n <u>Watashi</u> wa <u>hon</u> wo <u>yomu</u>. \n
+     (I)_________(book)__(read) \n
+        \n
+    English: \n
+    I read books.\n
+        \n
+    Generally, Japanese sentences are made up of several noun + particle sequences followed by a verb (or an adjective),
+    which is often followed by a sentence-final particle such as <strong>ka</strong> (asking a question) and <strong>ne</strong> (seeking agreement).\n
+        \n
+    Example:\n <u style="color:#FFFF00">あした</u> <span style="background-color:#00FFFF">は</span> <span style="background-color:#FFFF00">だいがく</span> <span style="background-color:#00FFFF">へ</span> <span style="background-color:#00FF00">きます</span> <span style="background-color:#00FFFF">か。</span>\n <span style="background-color:#FFFF00">Ashita</span> <span style="background-color:#00FFFF">wa</span> <span style="background-color:#FFFF00">daigaku</span> <span style="background-color:#00FFFF">e</span> <span style="background-color:#00FF00">kimasu</span> <span style="background-color:#00FFFF">ka.</span>\n <span style="background-color:#FFFF00">Noun</span> <span style="background-color:#00FFFF">Part.</span> <span style="background-color:#FFFF00">Noun</span> <span style="background-color:#00FFFF">Part.</span> <span style="background-color:#00FF00">Verb</span> <span style="background-color:#00FFFF">(Part.)</span></string>
+    <string name="title_activity_beginner_grammar_unit2">beginner_grammar_unit2</string>
+    <string name="beginner_grammar_unit2_content1">Adding \"masu\" to verbs makes them polite. It is used in formal style conversation.</string>
+    <string name="beginner_grammar_unit2_content2">Examples:\n
+    よみます。(I read/ I will read.)\n
+    Yomimasu.\n
+    \n
+    よみません。(I don\'t read/ I won\'t read.)\n
+    Yomimasen.\n
+    \n
+    よみました。(I read/I have read.)\n
+    Yomimashita.\n
+    \n
+    よみませんでした。(I didn\'t read.)\n
+    Yomimasen deshita.</string>
+    <string name="title_activity_hiragana_learn2">hiragana_learn2</string>
+    <string name="hiragana_learn2_content"><strong>Letters with dots or a circle:</strong>\n
+    Consonants\n
+    k - g\n
+    s - z\n
+    t - d\n
+    h - b, p\n
+    are considered to be related - precisely, the consonants on the right are considered to be a deeper version (with vibration) of the corresponding consonants on the left.
+    Therefore, these consonants are expressed by adding dots or a circle (for p) to the letters of the left-side consonants.\n
+    \n
+    <strong>Double consonants:</strong>\n
+    Letters with two consonants are written with a letter with \"i\" sound
+    plus one of や (ya), ゆ (yu) or よ (yo), which is written smaller than when they are by themselves.</string>
+
+</resources>

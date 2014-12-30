@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.koko.myapplication3.beginner_grammar_menu"
+    android:background="#e50d0d0d">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRAMMAR"
+        android:id="@+id/textView"
+        android:textColor="#ffff4f98"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT 1: BASIC WORD ORDER"
+        android:id="@+id/button4"
+        android:minWidth="200dp"
+        android:background="#ffe5ff81"
+        android:clickable="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="13dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT 2: 'V-MASU' FORM"
+        android:id="@+id/button5"
+        android:minWidth="200dp"
+        android:background="#ffffd579"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:textSize="13dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT 3: PARTICLES"
+        android:id="@+id/button6"
+        android:minWidth="200dp"
+        android:background="#FF7F66"
+        android:clickable="true"
+        android:layout_below="@+id/button5"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignRight="@+id/button7"
+        android:layout_marginTop="20dp"
+        android:textSize="13dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT 4: QUESTIONS"
+        android:id="@+id/button7"
+        android:minWidth="200dp"
+        android:background="#FF6699"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button6"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignRight="@+id/button8"
+        android:textSize="13dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT 5: NOUN/ADJ + DESU"
+        android:id="@+id/button8"
+        android:minWidth="200dp"
+        android:background="#ffff4981"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignRight="@+id/button5"
+        android:textSize="13dp" />
+
+</RelativeLayout>
